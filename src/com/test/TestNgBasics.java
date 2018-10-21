@@ -15,15 +15,15 @@ public class TestNgBasics {
 	// @BeforeSuite -- setup system property for chrome -- I
 	// @BeforeTest--launchBrowser -- II
 	// @BeforeClass--login to app -- III
-	
+
 	// @BeforeMethod--enter URL -- IV
 	// @Test--google Logo Test
 	// @AfterMethod --logout from app
-	
-	// @BeforeMethod--enter URL 
+
+	// @BeforeMethod--enter URL
 	// @Test--Google Title Test
 	// @AfterMethod --logout from app
-	
+
 	// @BeforeMethod--enter URL
 	// @Test--search test
 	// @AfterMethod --logout from app
@@ -50,7 +50,7 @@ public class TestNgBasics {
 	// @BeforeMethod
 	// @Test-1
 	// @AfterMethod
-	
+
 	// @BeforeMethod
 	// @Test-2
 	// @AfterMethod

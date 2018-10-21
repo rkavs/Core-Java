@@ -33,6 +33,9 @@ public class ParameterizeTest {
 		Xls_Reader reader = new Xls_Reader(
 				"C:\\Users\\Saurav Saha\\eclipse-workspace\\JavaTrainingSession\\src\\com\\testdata\\DataDriveTest.xlsx");
 		int rowCount = reader.getRowCount("RegTestData");
+		
+		
+		reader.addColumn("RegTestData", "status");
 
 		// Parameterization
 		for (int rowNum = 2; rowNum <= rowCount; rowNum++) {
@@ -86,6 +89,8 @@ public class ParameterizeTest {
 
 			driver.findElement(By.xpath("//*[@name='email']")).clear();
 			driver.findElement(By.xpath("//*[@name='email']")).sendKeys(emailAddress);
+			
+			reader.setCellData("RegTestData", "status", rowNum, "Pass");
 
 		}
 

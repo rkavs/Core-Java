@@ -1,54 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35" started-at="2018-10-19T10:27:09Z" finished-at="2018-10-19T10:27:09Z">
+  <suite name="Default suite" duration-ms="118483" started-at="2018-10-20T07:24:55Z" finished-at="2018-10-20T07:26:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35" started-at="2018-10-19T10:27:09Z" finished-at="2018-10-19T10:27:09Z">
-      <class name="com.parameters.ParameterTest">
-        <test-method status="FAIL" signature="yahooLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parameters.ParameterTest@5faeada1]" name="yahooLoginTest" duration-ms="0" started-at="2018-10-19T10:27:09Z" finished-at="2018-10-19T10:27:09Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'env' is required by @Test on method yahooLoginTest but has not been marked @Optional or defined
-in C:\Users\Saurav Saha\AppData\Local\Temp\testng-eclipse--1161609008\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'env' is required by @Test on method yahooLoginTest but has not been marked @Optional or defined
-in C:\Users\Saurav Saha\AppData\Local\Temp\testng-eclipse--1161609008\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test name="Default test" duration-ms="118483" started-at="2018-10-20T07:24:55Z" finished-at="2018-10-20T07:26:54Z">
+      <class name="com.datadriven.test.MercuryToursTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="setUp" is-config="true" duration-ms="17873" started-at="2018-10-20T07:24:56Z" finished-at="2018-10-20T07:25:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- yahooLoginTest -->
-      </class> <!-- com.parameters.ParameterTest -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="mercuryTourRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="mercuryTourRegPageTest" duration-ms="1771" started-at="2018-10-20T07:25:14Z" data-provider="getTestData" finished-at="2018-10-20T07:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12,new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sunnyvale]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[94085.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mercuryTourRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="tearDown" is-config="true" duration-ms="1019" started-at="2018-10-20T07:25:16Z" finished-at="2018-10-20T07:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="setUp" is-config="true" duration-ms="22351" started-at="2018-10-20T07:25:17Z" finished-at="2018-10-20T07:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="mercuryTourRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="mercuryTourRegPageTest" duration-ms="1725" started-at="2018-10-20T07:25:39Z" data-provider="getTestData" finished-at="2018-10-20T07:25:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reshma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13,new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sunnyvale]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[94086.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mercuryTourRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="tearDown" is-config="true" duration-ms="995" started-at="2018-10-20T07:25:41Z" finished-at="2018-10-20T07:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="setUp" is-config="true" duration-ms="29686" started-at="2018-10-20T07:25:42Z" finished-at="2018-10-20T07:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="mercuryTourRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="mercuryTourRegPageTest" duration-ms="1575" started-at="2018-10-20T07:26:11Z" data-provider="getTestData" finished-at="2018-10-20T07:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anirudh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14,new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sunnyvale]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[94087.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mercuryTourRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="tearDown" is-config="true" duration-ms="955" started-at="2018-10-20T07:26:13Z" finished-at="2018-10-20T07:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="setUp" is-config="true" duration-ms="37071" started-at="2018-10-20T07:26:14Z" finished-at="2018-10-20T07:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="mercuryTourRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="mercuryTourRegPageTest" duration-ms="1685" started-at="2018-10-20T07:26:51Z" data-provider="getTestData" finished-at="2018-10-20T07:26:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amreen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15,new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sunnyvale]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[94088.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test4@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mercuryTourRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.MercuryToursTest@c46bcd4]" name="tearDown" is-config="true" duration-ms="1030" started-at="2018-10-20T07:26:53Z" finished-at="2018-10-20T07:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.datadriven.test.MercuryToursTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

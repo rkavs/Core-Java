@@ -39,7 +39,7 @@ public class DummyCalendar {
 		// Date Format with dd MMMM yyyy zzzz : 13 April 2015 India Standard Time
 		// Date Format with E, dd MMM yyyy HH:mm:ss z : Mon, 13 Apr 2015 22:59:26 IST
 
-		String userEnteredDate = "08/31/2019"; // MM/dd/yyyy
+		String userEnteredDate = "06/23/2019"; // MM/dd/yyyy
 
 		String dateFormatRequired = conversionDates("MM/dd/yyyy", "dd/MMMM/yyyy", userEnteredDate);
 

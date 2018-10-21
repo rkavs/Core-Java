@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Saurav Saha\AppData\Local\Temp\testng-eclipse--1161609008\testng-customsuite.xml</span>
+                    <span>C:\Users\Saurav Saha\AppData\Local\Temp\testng-eclipse-765770701\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.parameters.ParameterTest" hash-for-method="yahooLoginTest">yahooLoginTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.datadriven.test.MercuryToursTest" hash-for-method="mercuryTourRegPageTest(Reshma, K, 13,new street, downtown, Sunnyvale, California, 94086.0, test2@gmail.com)">mercuryTourRegPageTest(Reshma, K, 13,new street, downtown, Sunnyvale, California, 94086.0, test2@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.datadriven.test.MercuryToursTest" hash-for-method="mercuryTourRegPageTest(Anirudh, D, 14,new street, downtown, Sunnyvale, California, 94087.0, test3@gmail.com)">mercuryTourRegPageTest(Anirudh, D, 14,new street, downtown, Sunnyvale, California, 94087.0, test3@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.datadriven.test.MercuryToursTest" hash-for-method="mercuryTourRegPageTest(Amreen, T, 15,new street, downtown, Sunnyvale, California, 94088.0, test4@gmail.com)">mercuryTourRegPageTest(Amreen, T, 15,new street, downtown, Sunnyvale, California, 94088.0, test4@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.datadriven.test.MercuryToursTest" hash-for-method="mercuryTourRegPageTest(Tom, Peter, 12,new street, downtown, Sunnyvale, California, 94085.0, test1@gmail.com)">mercuryTourRegPageTest(Tom, Peter, 12,new street, downtown, Sunnyvale, California, 94085.0, test1@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,54 +132,50 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.parameters.ParameterTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.datadriven.test.MercuryToursTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="yahooLoginTest">
-                  </a> <!-- yahooLoginTest -->
-                  <span class="method-name">yahooLoginTest</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;env&apos; is required by @Test on method yahooLoginTest but has not been marked @Optional or defined
-in C:\Users\Saurav Saha\AppData\Local\Temp\testng-eclipse--1161609008\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:290)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
+                  <a name="mercuryTourRegPageTest(Reshma, K, 13,new street, downtown, Sunnyvale, California, 94086.0, test2@gmail.com)">
+                  </a> <!-- mercuryTourRegPageTest(Reshma, K, 13,new street, downtown, Sunnyvale, California, 94086.0, test2@gmail.com) -->
+                  <span class="method-name">mercuryTourRegPageTest</span>
+                  <span class="parameters">(Reshma, K, 13,new street, downtown, Sunnyvale, California, 94086.0, test2@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mercuryTourRegPageTest(Anirudh, D, 14,new street, downtown, Sunnyvale, California, 94087.0, test3@gmail.com)">
+                  </a> <!-- mercuryTourRegPageTest(Anirudh, D, 14,new street, downtown, Sunnyvale, California, 94087.0, test3@gmail.com) -->
+                  <span class="method-name">mercuryTourRegPageTest</span>
+                  <span class="parameters">(Anirudh, D, 14,new street, downtown, Sunnyvale, California, 94087.0, test3@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mercuryTourRegPageTest(Amreen, T, 15,new street, downtown, Sunnyvale, California, 94088.0, test4@gmail.com)">
+                  </a> <!-- mercuryTourRegPageTest(Amreen, T, 15,new street, downtown, Sunnyvale, California, 94088.0, test4@gmail.com) -->
+                  <span class="method-name">mercuryTourRegPageTest</span>
+                  <span class="parameters">(Amreen, T, 15,new street, downtown, Sunnyvale, California, 94088.0, test4@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mercuryTourRegPageTest(Tom, Peter, 12,new street, downtown, Sunnyvale, California, 94085.0, test1@gmail.com)">
+                  </a> <!-- mercuryTourRegPageTest(Tom, Peter, 12,new street, downtown, Sunnyvale, California, 94085.0, test1@gmail.com) -->
+                  <span class="method-name">mercuryTourRegPageTest</span>
+                  <span class="parameters">(Tom, Peter, 12,new street, downtown, Sunnyvale, California, 94085.0, test1@gmail.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Saurav Saha\AppData\Local\Temp\testng-eclipse--1161609008\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Saurav Saha\AppData\Local\Temp\testng-eclipse-765770701\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -173,7 +184,7 @@ in C:\Users\Saurav Saha\AppData\Local\Temp\testng-eclipse--1161609008\testng-cus
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.parameters.ParameterTest&quot;/&gt;
+      &lt;class name=&quot;com.datadriven.test.MercuryToursTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -213,16 +224,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'yahooLoginTest')
-data.setCell(0, 2, 'com.parameters.ParameterTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'mercuryTourRegPageTest')
+data.setCell(0, 2, 'com.datadriven.test.MercuryToursTest')
+data.setCell(0, 3, 1771);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'mercuryTourRegPageTest')
+data.setCell(1, 2, 'com.datadriven.test.MercuryToursTest')
+data.setCell(1, 3, 1725);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'mercuryTourRegPageTest')
+data.setCell(2, 2, 'com.datadriven.test.MercuryToursTest')
+data.setCell(2, 3, 1685);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'mercuryTourRegPageTest')
+data.setCell(3, 2, 'com.datadriven.test.MercuryToursTest')
+data.setCell(3, 3, 1575);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -247,6 +270,56 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.datadriven.test.MercuryToursTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mercuryTourRegPageTest(Tom, Peter, 12,new street, downtown, Sunnyvale, California, 94085.0, test1@gmail.com)</span>
+                <span class="method-start">17873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mercuryTourRegPageTest(Reshma, K, 13,new street, downtown, Sunnyvale, California, 94086.0, test2@gmail.com)</span>
+                <span class="method-start">43020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mercuryTourRegPageTest(Anirudh, D, 14,new street, downtown, Sunnyvale, California, 94087.0, test3@gmail.com)</span>
+                <span class="method-start">75430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">77963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mercuryTourRegPageTest(Amreen, T, 15,new street, downtown, Sunnyvale, California, 94088.0, test4@gmail.com)</span>
+                <span class="method-start">115034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116720 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
